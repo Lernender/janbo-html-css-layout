@@ -1,0 +1,15 @@
+button {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.button {
+    padding: 47px 220px;
+    text-transform: uppercase;
+    background: #868080;
+    color: #FFFFFF;
+
+}
