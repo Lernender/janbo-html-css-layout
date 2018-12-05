@@ -1,0 +1,55 @@
+.section {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    color: #868080;
+    background: #ffffff;
+}
+
+.section-large {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.section-middle {
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+
+.section-small{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.section-primary-header {
+    background: linear-gradient(to right, #00537e, #3aa17e);
+    color: #ffffff;
+}
+
+
+.section-secondary {
+    background: #ededed;
+    padding-top: 1920px;
+
+}
+
+.section-third {
+    background: #ffffff;
+    color: #868080;
+}
+
+.section-fourth-footer {
+    background: #ededed;
+    color: #868080;
+}
+
+/**
+ * Gallery
+ */
+
+/**
+ * Gallery-Thema
+ */
+
+/**
+ * Gallery-Tipps
+ */

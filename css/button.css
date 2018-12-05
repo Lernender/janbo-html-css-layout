@@ -1,0 +1,10 @@
+.button {
+    padding: 10px 55px;
+    text-transform: uppercase;
+}
+
+.button-default {
+    background: #868080;
+    color: #ffffff;
+    letter-spacing: 1px;
+}

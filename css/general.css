@@ -1,0 +1,56 @@
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #868080;
+
+}
+
+body {
+    margin: 0;
+}
+
+
+h1 {
+    font-size: 100px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-shadow: 0 0 40px rgba(0,0,0,.5)
+}
+
+h2 {
+    font-size: 70px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-shadow: 0 0 40px rgba(0,0,0,.5)
+}
+
+h3 {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+h4 {
+     font-family: 'Source Sans Pro', sans-serif;
+     text-align: center;
+     font-weight: 700;
+     color: white;
+ }
+
+h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    color: #868080;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: right;
+    color: #868080;
+    text-transform: uppercase;
+    padding-bottom: 0;
+}

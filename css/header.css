@@ -1,0 +1,46 @@
+
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-shadow: 0 0 40px rgba(0,0,0,.5);
+    text-align: left;
+    width: 100%;
+}
+
+h2 {
+    font-size: 3.5rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-shadow: 0 0 40px rgba(0,0,0,.5);
+}
+
+.section {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    color: #868080;
+    background: #ffffff;
+}
+
+/**
+ * Section Start
+ */
+
+.section-primary-header {
+    background: url(../images/background.png);
+    color: #ffffff;
+}
+
+.margin-bottom {
+    margin-bottom: 150px;
+}
+
+.height-viewport {
+    height: 100vh;
+}
