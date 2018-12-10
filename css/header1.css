@@ -1,0 +1,7 @@
+#start {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/bilder.png");
+    background-size: cover;
+}

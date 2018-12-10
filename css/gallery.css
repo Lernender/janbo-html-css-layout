@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 600px;
+    height: 100%;
+}
+
+
+.grid {
+    margin-left: -15px;
+    margin-right: -15px;
+}
