@@ -50,15 +50,8 @@
 
 .grid-width-1-4 {
     width: 25%;
-}
+
 .end{
     align-items: flex-end;
 }
 
-.center {
-    align-items: center;
-}
-
-.grid-center {
-    align-items: center;
-}
