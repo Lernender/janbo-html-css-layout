@@ -5,3 +5,29 @@
     background-image: url("../images/bilder.png");
     background-size: cover;
 }
+
+/* Bottom left text */
+.title{
+    position: absolute;
+    bottom: 250px;
+    left: 16px;
+    font-size: 5rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-shadow: 0 0 40px rgba(0,0,0,.5);
+    text-align: left;
+    width: 100%;
+    font-weight: 700;
+}
+
+.description{
+    position: absolute;
+    bottom: 155px;
+    left: 16px;
+    font-size: 3.75rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-shadow: 0 0 40px rgba(0,0,0,.5);
+    font-weight: 700;
+
+}

@@ -54,3 +54,11 @@
 .end{
     align-items: flex-end;
 }
+
+.center {
+    align-items: center;
+}
+
+.grid-center {
+    align-items: center;
+}
