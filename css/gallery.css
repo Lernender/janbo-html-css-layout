@@ -1,18 +1,9 @@
-* {
-    box-sizing: border-box;
-}
-
-
-.gallery {
-    margin: 0px 100px 0 100px;
-}
 
 .gallery img {
-    width: 553px;
-    height: 369px;
-    padding: 30px;
     filter: grayscale(1000%);
     transform: 1s;
+    height: 423px;
+    width: 553px;
 
 }
 
