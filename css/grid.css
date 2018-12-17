@@ -33,6 +33,29 @@
 .grid-small > .grid-margin,
 * + .grid-margin-small { margin-top: 15px; }
 
+/*
+ * middle
+ */
+
+.grid-middle { margin-left: -15px; }
+.grid-middle > * { padding-left: 15px; }
+
+.grid + .grid-middle,
+.grid-middle > .grid-margin,
+* + .grid-margin-middle { margin-top: 30px; }
+
+
+/*
+ * large
+ */
+
+.grid-large { margin-left: -15px; }
+.grid-large  > * { padding-left: 15px; }
+
+.grid + .grid-large,
+.grid-large > .grid-margin,
+* + .grid-margin-large { margin-top: 50px; }
+
 
 [class*='grid-width'] {
     box-sizing: border-box;
@@ -56,7 +79,16 @@
     width: calc((100% * 1 / 3.001)*2);
 }
 
+.grid-width-auto {
+    width: auto;
+}
+
 .end{
     align-items: flex-end;
+}
+
+.grid-row {
+    display: flex;
+    flex-direction: row;
 }
 
