@@ -1,3 +1,8 @@
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
 header {
     background: white;
 }
@@ -6,11 +11,6 @@ header::after {
     content: '';
     display: table;
     clear: both;
-}
-
-.logo {
-    float: left;
-    padding: 10px 0;
 }
 
 nav {

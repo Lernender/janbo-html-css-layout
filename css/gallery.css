@@ -4,10 +4,9 @@
     transform: 1s;
     height: 423px;
     width: 553px;
-
 }
 
-.gallery img:hover{
+.gallery img:hover {
     filter: grayscale(0%);
     transform: scale(1.1);
 }

@@ -2,60 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Formular</title>
+    <title>contact</title>
     <link rel="stylesheet" href="../../css/container.css">
     <link rel="stylesheet" href="../../css/grid.css">
     <link rel="stylesheet" href="../../css/general.css">
     <link rel="stylesheet" href="../../css/contact.css">
     <link rel="stylesheet" href="../../css/button.css">
-
+    <link rel="stylesheet" href="../../css/section.css">
 </head>
 <body>
 <div class="formular">
     <div class="container">
-        <div class="grid">
+        <div class="section-large">
+            <div class="grid">
+                <div class="grid-width-1-2">
+                    <img src="../../images/birne.png">
+                </div>
 
-            <div class="grid-width-1-2">
-                <img src="../../images/birne.png">
-            </div>
+                <div class="grid-width-1-2">
+                    <h3>Was möchten Sie erfahren</h3>
+                    <p>Lassen Sie es uns Wissen.</p>
+                        <form class="grid">
+                                <div class="grid-width-1-2 grid-margin-middle">
+                                    <label for="name">Vorname</label>
+                                    <input type="text" id="name" name="firstname">
+                                </div>
 
+                                <div class="grid-width-1-2">
+                                    <label for="second_name">Nachname</label>
+                                    <input type="text" id="second_name" name="second_name">
+                                </div>
 
-            <div class="grid-width-1-2">
-                <h3>Was möchten Sie erfahren</h3>
-                <p>Lassen Sie es uns Wissen.</p>
+                                <div class="grid-width-1-1 grid-margin-middle">
+                                    <label for="mail">E-Mail</label>
+                                    <input type="text" id="mail" name="mail">
+                                </div>
 
-                <form class="grid">
+                                <div class="grid-width-1-1 grid-margin-large">
+                                    <label for="idea">gewünschtes Thema</label>
+                                    <textarea id="idea" name="idea"></textarea>
+                                </div>
 
-                    <div class="grid-width-1-2 grid-margin-middle">
-                        <label for="name">Vorname</label>
-                        <input type="text" id="name" name="firstname">
+                                <div class="grid-width-auto grid-margin-middle">
+                                    <button class="button button-default">Senden</button>
+                                </div>
+                        </form>
                     </div>
-
-                    <div class="grid-width-1-2">
-                        <label for="second_name">Nachname</label>
-                        <input type="text" id="second_name" name="second_name">
-                    </div>
-
-                    <div class="grid-width-1-1 grid-margin-middle">
-                        <label for="mail">E-Mail</label>
-                        <input type="text" id="mail" name="mail">
-                    </div>
-
-                    <div class="grid-width-1-1 grid-margin-large">
-                        <label for="idea">gewünschtes Thema</label>
-                        <textarea id="idea" name="idea"></textarea>
-                    </div>
-
-                    <div class="grid-width-auto grid-margin-middle">
-                        <button class="button button-default">Senden</button>
-                    </div>
-
-                </form>
-
+                </div>
             </div>
         </div>
     </div>
-</div>
-
 </body>
 </html>

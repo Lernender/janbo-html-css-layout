@@ -20,6 +20,11 @@
     padding-bottom: 40px;
 }
 
+.section-mini{
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+
 
 .section-primary-header {
     background: linear-gradient(to right, #00537e, #3aa17e);
@@ -40,7 +45,6 @@
 
 .section-fourth-footer {
     background: #ededed;
-
 }
 
 /**

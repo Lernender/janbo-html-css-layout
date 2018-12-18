@@ -6,15 +6,11 @@
     width: 1920px;
 }
 
-
-
 #layer1 {
     position: absolute;
     z-index: 1;
     top: 160px;
     left: 160px;
-
-
 }
 
 img{

@@ -7,7 +7,7 @@
 }
 
 .grid > * { margin: 0; }
-.grid > * > :last-child { margin-bottom: 0; }
+/*.grid > * > :last-child { margin-bottom: 0; }*/
 
 
 /*
@@ -81,6 +81,15 @@
 
 .grid-width-auto {
     width: auto;
+}
+
+.grid-width-expand {
+    flex: 1;
+    min-width: 1px;
+}
+
+.grid-width-small {
+    width: 150px;
 }
 
 .end{
