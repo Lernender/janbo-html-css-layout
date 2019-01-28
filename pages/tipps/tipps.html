@@ -27,17 +27,12 @@
 <!-- start image-->
 <div class="section section-mini section-primary-tipps">
     <div class="container">
-        <div class="title">
-            <h1>Tipps</h1>
-        </div>
+            <h1 class="title grid-font-h1-xs grid-font-h1-s grid-font-h2-m">Tipps</h1>
+            <h2 class="description grid-font-h2-xs grid-font-h2-s grid-font-h2-m">Einfach profitieren</h2>
 
-        <div class="description">
-            <h2>Einfach profitieren</h2>
-        </div>
-
-        <div class="scroll">
-            <img src="../../images/images/scroll.png">
-        </div>
+            <div class="scroll">
+                 <img src="../../images/images/scroll.png">
+            </div>
     </div>
 </div>
 
@@ -47,7 +42,7 @@
         <div class="grid end">
 
             <div class="grid-width-expand-l grid-width-expand-m grid-width-expand-s grid-width-expand-xs">
-            <h6> Das perfekte Winterfoto</h6>
+                <h6> Das perfekte Winterfoto</h6>
                 <p>Ein solches Foto haben Sie bestimmt schon irgendwo gesehen.
                     Es geht ganz einfach, folgen Sie nur der Anleitung weiter unten.
                     Vergessen Sie nicht uns Ihr Bild zu schicken.
@@ -151,8 +146,12 @@
     <div class="container">
         <div class="section-large">
             <div class="grid">
-                <div class="grid-width-1-2-l grid-width-1-2-m grid-hidden-s grid-hidden-xs">
-                    <img src="../../images/birne.png">
+                <div class="grid-width-1-2-l grid-width-1-2-m">
+                    <picture>
+                        <source srcset="../../images/images/birne_640.png" media="(max-width: 640px)">
+                        <source srcset="../../images/images/birne_960.png" media="(max-width: 960px)">
+                        <img srcset="../../images/birne.png">
+                    </picture>
                 </div>
 
                 <div class="grid-width-1-2-l grid-width-1-2-m grid-width-1-2-s grid-width-1-2-xs">
@@ -176,7 +175,7 @@
                             <input type="text" id="mail" name="mail">
                         </div>
 
-                        <div class="grid-width-1-1-l grid-width-1-1-m">
+                        <div class="grid-width-1-1-l grid-width-1-1-m grid-width-1-1-s grid-width-1-1-xs">
                             <label for="idea">gewünschtes Thema</label>
                             <textarea id="idea" name="idea"></textarea>
                         </div>

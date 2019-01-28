@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,49 +11,43 @@
 
 <body>
 <!-- Navbar -->
-<header>
     <div class="container">
-        <div class="logo">
-            <h3><a href="../../pages/start/start.html">Janbo</a></h3>
-        </div>
-        <nav>
-            <ul>
+        <header class="main-header main-header-l main-header-m main-header-s main-header-xs">
+            <a class="site-logo site-logo-l" href="../../pages/start/start.html">
+                <img src="../../images/logo/logo.jpg" alt="Logo">
+            </a>
+
+            <ul class="nav nav-l nav-li-l nav-m nav-a-m nav-s nav-a-s nav-xs nav-a-xs">
                 <li><a href="../../pages/gallery/gallery.html">Galerie</a></li>
                 <li><a href="../../pages/tipps/tipps.html">Tipps</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Kontakt</a></li>
             </ul>
-        </nav>
+        </header>
     </div>
-</header>
-
 <!-- start image-->
-<div class="section section-primary">
+<div class="section section-mini section-primary-tipps">
     <div class="container">
-        <div class="title-janbo grid-width-1-1-l grid-width-1-1-m grid-width-1-1-s grid-width-1-1-xs">
-            <h1>Janbo</h1>
-        </div>
+        <h1 class="title title-l title-m title-s title-xs">Janbo</h1>
+        <h2 class="description">Foto- und Videografie</h2>
 
-        <div class="description-janbo grid-width-1-1-l grid-width-1-2-m grid-width-1-2-s grid-width-1-2-xs">
-            <h2>Foto- und Videografie</h2>
-        </div>
-
-        <div class="scroll grid-width-1-1-l grid-width-1-2-m grid-width-1-2-s grid-width-1-2-xs">
+        <div class="scroll">
             <img src="../../images/images/scroll.png">
         </div>
     </div>
+</div>
 </div>
 <!-- photo overlap-->
 <div class="gallery-set-box">
     <div class="container">
 
-        <div class="back-images">
-            <img src="../../images/automesse_n.jpg">
+        <div class="back-images grid-hidden-l grid-hidden-m grid-hidden-s grid-hidden-s">
+            <img src="../../images/images/automesse.png">
         </div>
 
 
         <div class="front-text">
-            <div class="text-box">
+            <div class="text-box grid-width-expand-l grid-width-expand-m grid-width-expand-s grid-width-expand-xs">
                 <h3>Die letze Automesse 2018</h3>
                 <p> Das wars. Jan durfte die letzte Automesse in Zürich besuchen. Ein erfolgreiches Jahr geht für uns zu Ende.
                     Wir freuen uns bereits auf das neue Jahr und hoffen gemeinsam mit Ihnen durchstarten zu können.
@@ -79,45 +74,31 @@
 
             <div class="grid-width-2-3-l grid-width-2-3-m grid-width-1-1-s grid-width-1-1-xs">
                 <div class="photo-right">
-                <img src="../../images/images/tipps-winter.jpg">
-                </div>
+
+                    <picture>
+                        <source srcset="../../images/images/tipps-winter_640.png" media="(max-hight: 640px)">
+                        <source srcset="../../images/images/tipps-winter_960.png" media="(max-width: 960px)">
+                        <img srcset="../../images/images/tipps-winter.jpg">
+                    </picture>
+            </div>
         </div>
     </div>
-</div>
 </div>
 </div>
 <!-- footer -->
+<div class="container">
+    <header class="main-footer main-footer-l main-footer-m main-footer-s main-footer-xs">
+        <a class="site-logo site-logo-l" href="../../pages/start/start.html">
+            <img src="../../images/logo/logo.jpg" alt="Logo">
+        </a>
 
-<div id class="section section-big section-fourth-footer">
-    <div id class="container">
-
-        <div class="logo-footer grid-margin center">
-            <img src="../../images/logo_1.png" alt="Snapchat">
-            <h3>Janbo</h3>
-        </div>
-
-        <div class="flexbox-footer">
-
-            <div class="icon">
-                <a href="https://www.snapchat.com"><img src="../../images/snap.png" alt="Snapchat" /></a>
-                <h3> Adde uns </h3>
-                <p>Janbofilms</p>
-                <br>
-            </div>
-
-            <div class="icon">
-                <img src="../../images/wapp.png" alt="Snapchat">
-                <h3>Melde dich</h3>
-                <p>078 867 11 02</p>
-            </div>
-
-            <div class="icon">
-                <a href="https://www.instagram.com"><img src="../../images/test.png" alt="Instagram" /></a>
-                <h3>Folge uns</h3>
-                <p>Janbofilms</p>
-            </div>
-        </div>
-    </div>
+        <ul class="nav-footer nav-footer-l nav-footer-m nav-footer-a-m nav-footer-s nav-footer-a-s nav-footer-xs nav-footer-a-xs">
+            <li><a href="../../pages/gallery/gallery.html">Folge uns</a></li>
+            <li><a href="../../pages/tipps/tipps.html">Adde uns</a></li>
+            <li><a href="../../pages/tipps/tipps.html">Schreibe uns</a></li>
+        </ul>
+    </header>
 </div>
+
 </body>
 </html>
