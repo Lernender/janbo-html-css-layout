@@ -409,8 +409,6 @@ a {
         font-size: 6rem;
     }
 
-
-
     .front-text-xs {
         background-color: #ffffff;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -419,6 +417,22 @@ a {
         position: fixed;
     }
 
+    .grid-padding-xs {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .grid-padding-right-xs {
+        padding-right: 30px;
+    }
+
+    .grid-padding-left-xs {
+        padding-right: 30px;
+    }
+
+    .grid-padding-bottom-xs {
+        padding-bottom: 30px;
+    }
 
 }
 
@@ -484,6 +498,23 @@ a {
     .footer-nav-a-s a {
         border-bottom-color: transparent;
     }
+
+    .grid-padding-s {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .grid-padding-right-s {
+        padding-right: 30px;
+    }
+
+    .grid-padding-left-s {
+        padding-right: 30px;
+    }
+
+    .grid-padding-bottom-s {
+        padding-bottom: 30px;
+    }
 }
 
 
@@ -547,6 +578,15 @@ a {
         margin-left: .65em;
         margin-right: .65em;
     }
+
+    .grid-padding-m {
+        padding-left: 30px
+    }
+
+    .grid-padding-m {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 
 @media screen and (min-width: 1600px) {
@@ -609,6 +649,16 @@ a {
         margin-right: .65em;
 
     }
+
+    .grid-padding-l {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .grid-padding-left-l {
+        padding-right: 30px;
+    }
+
 }
 
 
@@ -651,8 +701,12 @@ a {
 }
 
 @media screen and (max-width: 1600px) {
-    .grid-hidden-l {
+    .grid-hidden-m {
         visibility: hidden;
+    }
+
+    .grid-padding-left-m {
+        padding-right: 30px;
     }
 
 }
@@ -932,3 +986,5 @@ textarea {
     width: 100%;
     height: 100%;
 }
+
+
