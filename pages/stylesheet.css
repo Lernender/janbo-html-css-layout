@@ -25,7 +25,7 @@ ul ol a {
     color: #868080;
 }
 
-h1 {
+ h1 {
     font-size: 6.25rem;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -90,6 +90,7 @@ a {
 .nav {
     display: flex;
     flex-direction: column;
+
 }
 
 .main-header {
@@ -222,6 +223,14 @@ a {
     background-size: cover;
 }
 
+.section-start-image-1 {
+    background-image: url("../images/header/3_1200.png");
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 45px);
+    background-size: cover;
+}
+
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
     img.tricks {
         left: 50%;
@@ -245,6 +254,7 @@ a {
 .section-dark {
     background-color: #ededed;
 }
+
 
 /**
  * Grid
@@ -381,13 +391,9 @@ a {
     }
 
     .main-header-xs {
-        height: 100px;
         justify-content: flex-end;
     }
 
-    .site-logo-xs {
-        width: 140px;
-    }
 
     .nav-xs {
         margin-top: 3em;
@@ -399,11 +405,6 @@ a {
             border-bottom-color: transparent;
     }
 
-    .image-xs {
-        width: 100%;
-        max-width: 400px;
-        height: auto;
-    }
 
     .title-xs {
         font-size: 6rem;
@@ -434,6 +435,10 @@ a {
         padding-bottom: 30px;
     }
 
+    .section-start-image-1 {
+        background-image: url("../images/header/1_640.png");
+    }
+
 }
 
 
@@ -461,6 +466,7 @@ a {
 
     .main-header-s {
         justify-content: flex-end;
+
     }
 
     .site-logo-s {
@@ -515,6 +521,11 @@ a {
     .grid-padding-bottom-s {
         padding-bottom: 30px;
     }
+
+    .section-start-image-1 {
+        background-image: url("../images/header/2_960.png");
+    }
+
 }
 
 
@@ -542,6 +553,7 @@ a {
 
     .main-header-m {
         flex-direction: row;
+        height: 100px;
     }
 
     .site-logo-m {
@@ -580,13 +592,10 @@ a {
     }
 
     .grid-padding-m {
-        padding-left: 30px
-    }
-
-    .grid-padding-m {
         padding-left: 30px;
         padding-right: 30px;
     }
+
 }
 
 @media screen and (min-width: 1600px) {
@@ -665,6 +674,86 @@ a {
 /**
  * max-width
  */
+@media screen and (max-width: 1600px) {
+    .grid-hidden-l {
+        visibility: hidden;
+    }
+
+    .grid-padding-left-l {
+        padding-right: 30px;
+    }
+
+    h1 {
+        font-size: 6.25rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .grid-hidden-m {
+        visibility: hidden;
+    }
+
+    h1 {
+        font-size: 6.25rem;
+        padding-bottom: 100px;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    .start-image-1 img {
+        height: 90px;
+    }
+
+    .section-large-m {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .section-large-m {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .grid-hidden-s {
+        visibility: hidden;
+    }
+
+    .logo-center-s {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .start-image-1 img {
+        height: 40px;
+    }
+
+    .section-large-s {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+/**
+ * mobil
+ */
 
 @media screen and (max-width: 640px) {
 
@@ -678,46 +767,41 @@ a {
         justify-content: space-between;
     }
 
+    h1 {
+        font-size: 4.25rem;
+        padding-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .height-small-xs {
+        height: 500px;
+    }
+
+    .height-medium-xs {
+        max-height: 700px;
+    }
+
+    .height-large-xs {
+        max-height: 1000px;
+    }
+
+    .section-large-xs {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .section-mini-xs {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .background-color-xs {
+        background: white;
+    }
 }
-
-@media screen and (max-width: 960px) {
-    .grid-hidden-s {
-        visibility: hidden;
-    }
-
-    .logo-center-xs {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .grid-hidden-m {
-        visibility: hidden;
-    }
-
-}
-
-@media screen and (max-width: 1600px) {
-    .grid-hidden-m {
-        visibility: hidden;
-    }
-
-    .grid-padding-left-m {
-        padding-right: 30px;
-    }
-
-}
-
-/**
- * navbar
- */
-
-
-
-
 
 /**
  * Button
