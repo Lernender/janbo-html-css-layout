@@ -35,6 +35,7 @@ ul ol a {
     color: #FFFFFF;
     text-transform: uppercase;
     text-shadow: 0 0 40px rgba(0,0,0,.5);
+     margin: 0;
 }
 
 h2 {
@@ -42,6 +43,7 @@ h2 {
     color: #FFFFFF;
     text-transform: uppercase;
     text-shadow: 0 0 40px rgba(0,0,0,.5);
+    margin: 0;
 }
 
 h3 {
@@ -87,10 +89,12 @@ h6 {
 .nav {
     display: flex;
     flex-direction: column;
+
 }
 
 .main-header {
     padding: 1em;
+    margin-right: auto;
 }
 
 .nav {
@@ -424,19 +428,23 @@ h6 {
     }
 
     .grid-padding-left-xs {
-        padding-right: 30px;
+        padding-left: 30px;
     }
 
     .grid-padding-bottom-xs {
         padding-bottom: 30px;
     }
 
-    .section-start-image-1 {
-        background-image: url("../images/header/1_640.png");
+    h1 {
+        font-size: 5rem;
     }
 
-}
+    h2 {
+        font-size: 3rem;
+    }
 
+
+}
 
 @media screen and (min-width: 960px) {
     .grid-width-1-2-s {
@@ -511,17 +519,20 @@ h6 {
     }
 
     .grid-padding-left-s {
-        padding-right: 30px;
+        padding-left: 30px;
     }
 
     .grid-padding-bottom-s {
         padding-bottom: 30px;
     }
 
-    .section-start-image-1 {
-        background-image: url("../images/header/2_960.png");
+    h1 {
+        font-size: 6rem;
     }
 
+    h2 {
+        font-size: 3rem;
+    }
 }
 
 
@@ -593,7 +604,31 @@ h6 {
         padding-right: 30px;
     }
 
+    .grid-padding-left-m {
+        padding-left: 30px;
+    }
+
+    .grid-padding-right-m {
+        padding-right: 30px;
+    }
+
+    .grid-padding-bottom-m {
+        padding-bottom: 30px;
+    }
+
+    .grid-padding-null-m {
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 6.25rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
 }
+
 
 @media screen and (min-width: 1600px) {
     .grid-width-1-2-l {
@@ -632,7 +667,6 @@ h6 {
     .nav-li-l li {
         margin-left: .65em;
         margin-right: .65em;
-
     }
 
     .title-l {
@@ -653,7 +687,6 @@ h6 {
     .footer-nav-li-l li {
         margin-left: .65em;
         margin-right: .65em;
-
     }
 
     .grid-padding-l {
@@ -662,9 +695,30 @@ h6 {
     }
 
     .grid-padding-left-l {
+        padding-left: 30px;
+    }
+
+    .grid-padding-right-l {
         padding-right: 30px;
     }
+
+    .grid-padding-bottom-l {
+        padding-bottom: 30px;
+    }
+
+    .grid-padding-null-l {
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 6.25rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
 }
+
 
 /*
  * responsive max-width
@@ -676,30 +730,14 @@ h6 {
     }
 
     .grid-padding-left-l {
-        padding-right: 30px;
+        padding-left: 30px;
     }
 
-    h1 {
-        font-size: 6.25rem;
-    }
-
-    h2 {
-        font-size: 3.5rem;
-    }
 }
 
 @media screen and (max-width: 1200px) {
     .grid-hidden-m {
         visibility: hidden;
-    }
-
-    h1 {
-        font-size: 6.25rem;
-        padding-bottom: 100px;
-    }
-
-    h2 {
-        font-size: 3.5rem;
     }
 
     .start-image-1 img {
@@ -741,14 +779,6 @@ h6 {
         width: 50%;
     }
 
-    h1 {
-        font-size: 6rem;
-    }
-
-    h2 {
-        font-size: 3rem;
-    }
-
     .start-image-1 img {
         height: 40px;
     }
@@ -759,7 +789,7 @@ h6 {
     }
 
     .height-small-s {
-        height: 500px;
+        height: 70px;
     }
 
     .height-medium-s {
@@ -783,17 +813,8 @@ h6 {
         justify-content: space-between;
     }
 
-    h1 {
-        font-size: 4.25rem;
-        padding-bottom: 20px;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
-
     .height-small-xs {
-        height: 500px;
+        height: 70px;
     }
 
     .height-medium-xs {
@@ -817,6 +838,27 @@ h6 {
     .background-color-xs {
         background: white;
     }
+}
+
+/*
+ * responsive mobil
+ */
+
+@media (max-width: 650px) {
+
+    .padding-mobil {
+        padding-left: 30px;
+        padding-right: 30px;
+   }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
 }
 
 /**
@@ -1009,9 +1051,12 @@ textarea {
 
 .container-heading {
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
     width: 100vw;
     height: 100%;
 }
 
-
+.heading-2 {
+    margin-bottom: 80px;
+}
